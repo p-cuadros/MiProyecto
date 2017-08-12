@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="109c759f-2f1a-4933-8048-e81aafbe2146" name="DiagramaClases" linkedPackageId="3ba00f54-fb29-41cd-b522-8fe1ae703285" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="9d811aba-76fa-49a2-b8d0-c15c9b398af5">
+      <profileInstance Id="3b1a8a50-c576-48bc-bb65-c8d63fd2505d" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="47a8412a-b13d-44f7-baab-ba1ef035ea92">
+      <profileInstance Id="e6f18040-8d82-4c10-bd2f-dc9ce010effc" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="12742f78-b410-4b7d-a2e9-94ef464da952" name="Class1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2053e1d6-1b46-4b21-b770-f2a8a4100b8d" />
+        <targetEnds>
+          <association Id="f3518c0c-ce3d-49b5-b744-ffd504af2c24" isDerived="false" sourceEndRoleName="Class1" targetEndRoleName="Class2" isLeaf="false" isAbstract="false">
+            <classMoniker Id="a774c463-1f0a-49df-995a-8e68baede1e0" LastKnownName="Class2" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b706fb92-b75b-4bab-adf0-3803b652d116" name="Class1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2881cf1e-f501-47a9-8417-5edf54ed221e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7521410c-b4bf-4c17-a906-b8b0f3e5919b" name="Class2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="136761d7-c10d-4790-97ac-a67cc324d4d5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9c0df6f4-275b-4179-a5ff-2410268de2b1" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="ccab192a-7b4a-46f5-87f7-320a8d4ef756" name="Uno" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="db838d2d-3f8e-47d1-8d33-6242425eadcc" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="93f7394c-e91c-4da8-9c4a-ca57f244e59e" name="CrearNuevo" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5630133e-d771-4df6-95db-b8fcf22aaeaa" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a774c463-1f0a-49df-995a-8e68baede1e0" name="Class2" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="160fb361-8b22-4386-95a2-1a939b5ec5e9" />
+        <ownedAttributesInternal>
+          <property Id="15ce5fb6-b79d-4d11-8ea9-809085356c29" name="Dos" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="40e9901b-7874-4b28-a97f-bf3eea4d8773" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="3ba00f54-fb29-41cd-b522-8fe1ae703285" name="MiProyecto.ModeloUML">
+    <elementDefinition Id="52b10af6-4a13-4f42-9bf3-be33a49299fa" />
+  </package>
+</logicalClassDesignerModel>
